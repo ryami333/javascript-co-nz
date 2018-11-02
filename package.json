@@ -12,5 +12,8 @@
     "gatsby": "^2.0.38",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.85.0"
   }
 }
