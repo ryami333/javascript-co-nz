@@ -1,3 +1,7 @@
-import React from "react"
+// @flow
 
-export default () => <div>Hello world!</div>
+import React from "react";
+
+const Index = () => <div>Hello world!</div>;
+
+export default Index;
