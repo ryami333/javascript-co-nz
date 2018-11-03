@@ -13,7 +13,9 @@ const Img = styled.img`
 
 const Index = () => (
     <Layout>
-        <Img alt="under construction" src={gif} />
+        <a href="https://get.adobe.com/flashplayer/">
+            <Img alt="under construction" src={gif} />
+        </a>
     </Layout>
 );
 
