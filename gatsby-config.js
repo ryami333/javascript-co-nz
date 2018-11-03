@@ -1,3 +1,3 @@
 module.exports = {
-    plugins: [`gatsby-plugin-flow`],
+    plugins: ['gatsby-plugin-flow', 'gatsby-plugin-styled-components'],
 };
