@@ -3,14 +3,21 @@
     "extends": [
         "airbnb",
         "plugin:react/recommended",
+        "plugin:flowtype/recommended",
         "prettier",
         "prettier/react",
+        "prettier/flowtype"
     ],
     "plugins": [
         "react",
+        "flowtype",
+        "flowtype-errors",
+        "prettier"
     ],
     "rules": {
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "prettier/prettier": "error",
+        "flowtype-errors/show-errors": 2
     },
     "env": {
         "es6": true,

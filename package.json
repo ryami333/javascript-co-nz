@@ -15,6 +15,7 @@
     "react-dom": "^16.6.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-flowtype": "^3.2.0",
